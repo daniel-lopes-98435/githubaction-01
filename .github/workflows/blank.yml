@@ -10,17 +10,17 @@ on:
 
 jobs:
   build:
-  runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
-  steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
-      
-    - name: Passo 01
-      run: echo "Executando Passo 01"
-      
-    - name: Passo 02
-      run: echo "Executando passo 02"
-      
-    - name: Passo 03
-      run: echo "Executando passo 03"
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Passo 01
+        run: echo "Executando Passo 01"
+        
+      - name: Passo 02
+        run: echo "Executando passo 02"
+        
+      - name: Passo 03
+        run: echo "Executando passo 03"
