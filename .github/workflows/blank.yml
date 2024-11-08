@@ -10,7 +10,8 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    name: Excutando Job em sefhosted
+    runs-on: self-hosted
 
     steps:
       - name: Checkout code
@@ -24,3 +25,6 @@ jobs:
         
       - name: Passo 03
         run: echo "Executando passo 03"
+        
+        
+              
